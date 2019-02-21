@@ -52,6 +52,8 @@ end
 def runner
   welcome 
   initial_round 
+  
+  until 
   card total ()
   hit?(sum)
   
