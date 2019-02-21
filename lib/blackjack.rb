@@ -18,7 +18,7 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game
+def end_game(card_total)
   if card_total > 21 
     puts "Sorry, you hit #{int}. Thanks for playing!"
 end
