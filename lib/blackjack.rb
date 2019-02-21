@@ -34,6 +34,7 @@ def hit?(current_total)
   input = get_user_input 
   if input == "h"
     current += deal_card
+    elsif 
     
 end
 
