@@ -6,12 +6,12 @@ def deal_card
   return rand(1..11)
 end
 
-def display_card_total
+def display_card_total(int)
   "Your cards add up to #{int}"
 end
 
 def prompt_user
-  "Type 'h' to hit or 's' to stay"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
