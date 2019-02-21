@@ -19,8 +19,8 @@ def get_user_input
 end
 
 def end_game
-  if int > 21 
-    return "Sorry, you hit #{int}. Thanks for playing!"
+  if card_total > 21 
+    puts "Sorry, you hit #{int}. Thanks for playing!"
 end
 
 def initial_round
