@@ -29,13 +29,13 @@ def initial_round
   return sum
 end
 
-def hit?(current_total)
+def hit?(sum)
   prompt_user 
   input = get_user_input 
   if input == "h"
-    return current += deal_card
+    return sum += deal_card
     elsif input == "s"
-    return current_total
+    return sum
   else invalid_command
   end 
 end
