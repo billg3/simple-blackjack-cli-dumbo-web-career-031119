@@ -49,4 +49,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-d
+def runner
+  # code runner here
+end
+    
