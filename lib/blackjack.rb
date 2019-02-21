@@ -20,7 +20,7 @@ end
 
 def end_game
   if int > 21 
-    return 
+    return "Sorry, you hit #{int}. Thanks for playing!"
 end
 
 def initial_round
